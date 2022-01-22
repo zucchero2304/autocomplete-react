@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.869563b6.css",
-    "main.js": "/static/js/main.cd41d070.js",
-    "index.html": "/index.html",
-    "main.869563b6.css.map": "/static/css/main.869563b6.css.map",
-    "main.cd41d070.js.map": "/static/js/main.cd41d070.js.map"
+    "main.css": "/autocomplete-react/static/css/main.869563b6.css",
+    "main.js": "/autocomplete-react/static/js/main.cd41d070.js",
+    "index.html": "/autocomplete-react/index.html",
+    "main.869563b6.css.map": "/autocomplete-react/static/css/main.869563b6.css.map",
+    "main.cd41d070.js.map": "/autocomplete-react/static/js/main.cd41d070.js.map"
   },
   "entrypoints": [
     "static/css/main.869563b6.css",
