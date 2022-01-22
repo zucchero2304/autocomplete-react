@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+.Autocomplete {
+  padding: 10px;
+  width: fit-content;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input-wrapper {
+  display: inline-block;
+  background-color: white;
+  border: 2px solid grey;
+  padding: 4px 10px;
+  height: 40px;
+  width: 50vw;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.input-wrapper div {
+  flex-grow: 100;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-wrapper input {
+  border: none;
+  padding: 0;
+  width: 100%;
+}
+
+.input-wrapper button {
+  border: none;
+  background-color: lightgray;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.input-wrapper button:hover {
+  text-decoration: line-through;
+}
+
+.autocomplete-suggestions {
+  width: 50vw;
+  padding: 4px;
+  border: 2px solid grey;
+  border-top: none;
+  max-height: 400px;
+  overflow: auto;
+}
+
+.autocomplete-suggestions button {
+  background: none;
+  display: block;
+  border: none;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 2px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.autocomplete-suggestions button:hover {
+  background-color: lightgray;
+}
+
+.autocomplete-suggestions button:focus {
+  background-color: lightgray;
+  outline: none;
+}
+
+#inputField {
+  outline: none;
 }
