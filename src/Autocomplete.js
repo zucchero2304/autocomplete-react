@@ -62,8 +62,7 @@ function Autocomplete() {
         if (event.key === "Enter") {
             let item = document.getElementById("inputField").value
             if (item !== " " && item !== "") {
-                setAddedItems(prevAddedItems => [...prevAddedItems, item])
-                document.getElementById("inputField").value = ''
+                handleAddItem(item)
             }
         }
     }
